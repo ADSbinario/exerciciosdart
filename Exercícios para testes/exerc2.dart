@@ -12,21 +12,21 @@ main(){
  var TxtB =  stdin.readLineSync();
  var B = int.parse(TxtB);
 
- var Somar = A + B;
+ var Adicao = A + B;
  var Subtracao = A - B;
  var Multiplicar = A * B ;
- var Divisao = A + B;
+ var Divisao = A / B;
 
- print("======Soma é: ======");
- print(Somar);
+ print("====== Adição é: ======");
+ print(Adicao);
  
- print("======Subtração é =====");
+ print("====== Subtração é =====");
  print(Subtracao);
 
- print("======Multiplicação é: ======");
+ print("====== Multiplicação é: ======");
  print(Multiplicar);
 
- print("=====Divisão é: =======");
+ print(" =====Divisão é: =======");
  print(Divisao);
 
 }

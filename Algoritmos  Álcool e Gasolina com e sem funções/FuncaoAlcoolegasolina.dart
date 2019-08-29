@@ -2,12 +2,12 @@ import 'dart:io';
 
 main(){
 
-calculoMelhorEscolha();
+calcMelhorEscolha();
 
 }
 
 //Algoritmo de calcular melhor escolha, entre Álcool e Gasolina.
-calculoMelhorEscolha(){
+calcMelhorEscolha(){
 
 print("Digite o valor do litro do Álcool");
 String textAlcool = stdin.readLineSync();
@@ -19,7 +19,7 @@ double Gasolina = double.parse(textGasolina);
 
 double Resultado =  calcAlcoolGasolina(Alcool, Gasolina);
 
-imprimirResultado(Resultado);
+imprimir(Resultado);
 
 }
 // Função que recebe o valor do Álcool, da Gasolina e retorna
@@ -31,7 +31,7 @@ double calcAlcoolGasolina(double Alcool, double Gasolina){
 
 
 //Função que imprimi o resultado do cálculo
-imprimirResultado(Resultado){
+imprimir(Resultado){
 
 if(Resultado > 0.7){
 
